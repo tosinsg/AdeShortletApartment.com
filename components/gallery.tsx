@@ -46,6 +46,31 @@ const images = [
     alt: "Bathroom with toilet and shower area",
     title: "Modern Bathroom",
   },
+    {
+    src: "/images/IMG-20250409-WA0007(1).jpg",
+    alt: "Bathroom with toilet and shower area",
+    title: "Modern Bathroom",
+  },
+    {
+    src: "/images/IMG-20250409-WA0005(1).jpg",
+    alt: "Bathroom with toilet and shower area",
+    title: "Modern Bathroom",
+  },
+    {
+    src: "/images/IMG-20250409-WA0008(1).jpg",
+    alt: "Bathroom with toilet and shower area",
+    title: "Modern Bathroom",
+  },
+    {
+    src: "/images/IMG-20250409-WA0004(1).jpg",
+    alt: "Bathroom with toilet and shower area",
+    title: "Modern Toilet",
+  },
+    {
+    src: "/images/IMG-20250409-WA0006(1).jpg",
+    alt: "Bathroom with toilet and shower area",
+    title: "Modern Bathroom with clean Towels",
+  },
   {
     src: "/images/bathroom-vid.mp4",
     alt: "Modern bathroom and clean toilets",
