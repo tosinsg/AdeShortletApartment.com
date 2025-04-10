@@ -12,11 +12,6 @@ const images = [
     title: "Stylish Living Room",
   },
   {
-    src: "/images/living-room.jpeg",
-    alt: "Modern living room with blue sofas and LED lighting",
-    title: "Stylish Living Room",
-  },
-  {
     src: "/images/bedroom1.png",
     alt: "Comfortable bedroom with white bedding and brown curtains",
     title: "Cozy Bedroom",
