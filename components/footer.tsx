@@ -48,7 +48,7 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Info</h3>
             <ul className="space-y-2 text-gray-300">
-              <li>No 10a olufunmilola okikiolu str off toyin, Lagos, Nigeria</li>
+              <li>No 10a Olufunmilola Okikiolu str off Toyin, Ikeja, Lagos, Nigeria</li>
               <li>Phone: 08058781774, 09056035383, 08133459000</li>
               <li>Email: tj_balogun212@yahoo.com</li>
             </ul>
