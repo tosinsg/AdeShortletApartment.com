@@ -28,17 +28,17 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#booking" className="text-gray-300 hover:text-white">
+                <Link href="https://v0-ade-shortlet-apartment.vercel.app/#booking" className="text-gray-300 hover:text-white">
                   Book Now
                 </Link>
               </li>
               <li>
-                <Link href="#location" className="text-gray-300 hover:text-white">
+                <Link href="https://v0-ade-shortlet-apartment.vercel.app/#location" className="text-gray-300 hover:text-white">
                   Location
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="text-gray-300 hover:text-white">
+                <Link href="https://v0-ade-shortlet-apartment.vercel.app/#contact" className="text-gray-300 hover:text-white">
                   Contact
                 </Link>
               </li>

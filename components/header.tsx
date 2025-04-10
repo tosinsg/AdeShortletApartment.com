@@ -12,32 +12,19 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-gray-200 shadow-sm">
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
-          <Link href="/" className="font-bold text-xl md:text-2xl text-black">
+          <Link href="https://v0-ade-shortlet-apartment.vercel.app/" className="font-bold text-xl md:text-2xl text-black">
             Ade Shortlet
           </Link>
         </div>
 
         <nav className="hidden md:flex gap-6">
-          <Link href="#gallery" className="text-sm font-medium text-gray-600 hover:text-black">
+          <Link href="#gallery" className="text-sm font-medium text-black hover:text-gray">
             Gallery
           </Link>
-          <Link href="#features" className="text-sm font-medium text-gray-600 hover:text-black">
+          <Link href="#features" className="text-sm font-medium text-black hover:text-gray">
             Features
           </Link>
-          <Link href="#booking" className="text-sm font-medium text-gray-600 hover:text-black">
-            Book Now
-          </Link>
-          <Link href="#location" className="text-sm font-medium text-gray-600 hover:text-black">
-            Location
-          </Link>
-          <Link href="#contact" className="text-sm font-medium text-gray-600 hover:text-black">
-            Contact
-          </Link>
         </nav>
-
-        <Button variant="outline" className="hidden md:flex border-black text-black hover:bg-gray-100">
-          <Link href="#booking">Book Now</Link>
-        </Button>
 
         <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
           {isMenuOpen ? <X /> : <Menu />}
@@ -59,27 +46,6 @@ export function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Features
-              </Link>
-              <Link
-                href="#booking"
-                className="text-sm font-medium p-2 hover:bg-gray-100 rounded-md"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Book Now
-              </Link>
-              <Link
-                href="#location"
-                className="text-sm font-medium p-2 hover:bg-gray-100 rounded-md"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Location
-              </Link>
-              <Link
-                href="#contact"
-                className="text-sm font-medium p-2 hover:bg-gray-100 rounded-md"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Contact
               </Link>
             </nav>
           </div>
