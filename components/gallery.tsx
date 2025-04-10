@@ -52,9 +52,9 @@ const images = [
     title: "Modern Bathroom",
   },
   {
-    src: "/images/toilet-vid.mp4",
+    src: "/images/bathroom-vid.mp4",
     alt: "Modern bathroom and clean toilets",
-    title: "Modern Toilet",
+    title: "Modern Bathroom",
   },
 ]
 
